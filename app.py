@@ -4,7 +4,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
 
 # Load the trained model from the .keras file
-model = load_model('imdb_sentiment_annalysis.keras')
+model_path = os.path.join(os.path.dirname(__file__), 'imdb_sentiment_annalysis.keras')
+# model = load_model(model_path, compile=False)
+model = load_model(model_path)
 
 # Load the tokenizer from the .pickle file
 with open('tokenizer.pickle', 'rb') as handle:
