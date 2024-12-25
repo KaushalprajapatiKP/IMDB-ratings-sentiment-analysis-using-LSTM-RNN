@@ -2,6 +2,7 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
+import os
 
 # Load the trained model from the .keras file
 model_path = os.path.join(os.path.dirname(__file__), 'imdb_sentiment_annalysis.keras')
