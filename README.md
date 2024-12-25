@@ -1,1 +1,2 @@
-# IMDB-ratings-sentiment-analysis-using-LSTM-RNN
+# IMDB-sentiment-analysis-using-LSTM-RNN
+ 
